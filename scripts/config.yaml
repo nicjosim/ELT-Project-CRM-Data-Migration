@@ -1,0 +1,29 @@
+paths:
+  excel_input: "raw_dataset.xlsx"          
+  raw_csv: "out/raw.csv"
+  standardized_csv: "out/standardized.csv"
+  merged_csv: "out/merged.csv"
+  investors_csv: "investors.csv"     
+  registry_csv: "out/raw_registry.csv"
+
+header_row: 9
+
+## Mapping of columns for investors.csv
+
+columns:
+  first name: First Name
+  last name: Last Name
+  email: Email
+  phone: Phone Number
+  date of birth: Date of Birth
+  address: Address Line
+  suburb: Suburb
+  postcode: Postcode
+  city: City
+  country: Country
+  tax rate: PIR %
+  tax id: Tax Identification Number
+
+drop:
+  strategy: last_row
+

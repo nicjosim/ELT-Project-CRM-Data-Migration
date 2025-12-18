@@ -1,0 +1,42 @@
+#,First Name,Last_Name,Email,PHONE,Date of Birth,Address,Suburb,Postcode,City,Country,TAX RATE,TAX ID,Amount Invested,Notes
+1,James,Wilson,james.wilson@email.com,61 412 345 678,1985-01-18 00:00:00,14 Collins Street,CBD,3000,Melbourne,Australia,0.175,123-456-789,"$150,000.00",Key client
+2,James,Wilson,j.wilson@gmail.com,412345678,1985-01-18 00:00:00,14 Collins St,Melbourne CBD,3000,Melbourne,AU,17.5,123456789,"$200,000.00",
+3,Sarah,Mitchell-Brown,sarah.mb@outlook.com,64 21 987 6543,03/15/1990,88 Shortland Street,,1010,Auckland,New Zealand,0.28,IRD-98-765-432,"$75,000.00",NZ resident
+4,,,sarahmb@outlook.com,(021) 987-6543,1990-03-15 00:00:00,88 Shortland St,CBD,1010,Auckland,NZ,0.28,98765432,"$75,000",
+5,Michael,Chen,mchen@apex.com,412 345 678,1978-06-22 00:00:00,Suite 100 Level 12 George St,,2000,Sydney,Australia,0,98-765-432-109,"$500,000.00",VIP
+6,MICHAEL,CHEN,MCHEN@APEX.COM,61 (0)412 345 678,1978-06-22 00:00:00,Ste 100 Lvl 12 George Street,Sydney CBD,2000,SYDNEY,AUSTRALIA,0,98765000000,"$350,000.00",DUPLICATE?
+7,Emma,White,,61 412 111 222,1982-08-30 00:00:00,1/23 Market Street,,6000,,Australia,,567-890-123,"$180,000.00",
+8,Emma,Whyte,e.white@prometheus.com.au,0412-111-222,1982-08-30 00:00:00,Unit 1 23 Market St,Perth,6000,Perth,WA,28,567890123,"$180,000",typo in name?
+9,David,Brown,dbrown@zenith.com.au,61412555666,1975-11-14 00:00:00,45 Queen Street,,4000,Brisbane,Australia,0.105,234-567-890,"$220,000.00",
+10,David,Browne,david.brown@zenitham.com.au,0412 555 666,1975-11-14 00:00:00,45 Queen St,Brisbane CBD,4000,Brisbane,QLD,,234567890,"$180,000.00",
+11,Jennifer,Lee,jlee@quasar.com.au,412987654,1988-05-22 00:00:00,PO BOX 1234,,5000,Adelaide,Australia,0.175,123-456-789-012,"$95,000.00",
+12,Jennifer,Li,j.lee@quasarinvest.com.au,61 412 987 654,1988-05-22 00:00:00,P.O. Box 1234,Adelaide,5000,Adelaide,SA,17.5,123460000000,"$95,000",same person as #11?
+13,Thomas,Green,t.green@kestrel.com.au,61412345678,1980-03-07 00:00:00,Level 3 42 Murray St,,7000,Hobart,Australia,,234-567-890,"$150,000.00",
+14,Richard,King,,64 21 123 4567,1972-12-25 00:00:00,88 Shortland Street,,1010,Auckland,New Zealand,0.105,IRD-12-345-678,"$300,000.00",
+15,Richard,kng,richard.king@veritasglobal.co.nz,6421-123-4567,1972-12-25 00:00:00,88 Shortland St,Auckland CBD,,Auckland,NZ,10.5,IRD12345678,"$250,000.00",
+16,Sophia,Anderson,sophia@gryphon.co.nz,(021) 987 6543,1995-09-08 00:00:00,Level 10 22 Fanshawe St,,,Auckland,New Zealand,,NZ-987-654,"$120,000.00",
+17,Daniel,Moore,daniel@orion.com.au,61 412 111 222,1983-04-19 00:00:00,Unit 7 88 Pitt Street,,,Sydney,Australia,0.175,456-789-012,"$275,000.00",
+18,Dan,Moore,d.moore@orionstrategy.com.au,412111222,1983-04-19 00:00:00,Unit 7/88 Pitt St,Sydney,2000,Sydney,NSW,0.175,456789012,"$275,000",
+19,Oliver,Wang,o.wang@indigo.com.au,61434111222,1991-02-14 00:00:00,320 Adelaide Street,,4000,Brisbane,Australia,0.175,789-012-345,"$200,000.00",
+20,Carlos,Rodriguez,carlos@alhambra.com.au,0412-666-777,1970-07-28 00:00:00,789 Spencer Street,,3000,Melbourne,Australia,0.175,890-123-456,"$175,000.00",
+21,Edward,Sutherland,edward@aethelred.com.au,61 434 567 890,1965-11-30 00:00:00,56 Elizabeth Street,,2000,Sydney,Australia,0.175,678-901-234,"$400,000.00",Joint investor
+22,Victoria,Sutherland,victoria@aethelred.com.au,61 445 678 901,1968-11-30 00:00:00,56 Elizabeth St,Sydney CBD,2000,Sydney,AU,0.175,678901234,"$400,000.00",Joint with Edward
+23,Alex,Turner,alex@synapse.com.au,411222333,1993-06-17 00:00:00,Unit 4/12 Park Avenue,,2600,Canberra,Australia,0.175,345-678-901,"$85,000.00",
+24,Mark,Johnson,m.johnson@gryphon.co.nz,64 21 234 5678,1988-10-05 00:00:00,Level 10 22 Fanshawe Street,,,Auckland,New Zealand,0.28,NZ-111-222,"$90,000.00",
+25,Amanda,Davis,,61 423 987 654,1986-09-12 00:00:00,400 Collins Street,,3000,Melbourne,Australia,,901-234-567,"$160,000.00",
+26,,Chen,mike.chen@personal.com,499888777,1978-06-22 00:00:00,Home address unknown,,,Sydney,Australia,0,,"$50,000.00",Missing first name
+27,Jessica,,jessica.adams@orion.com,61 434 567 890,,Building A Level 5,,2000,Sydney,Australia,0.175,222-333-444,"$125,000.00",Missing DOB
+28,Peter,Harris,peter@quasar.com.au,423123456,1979/14/08,PO Box 1234,,5000,Adelaide,Australia,0.175,333-444-555,"$70,000.00",Invalid DOB format
+29,Helen,Wu,helen@indigo.com.au,61445222333,29/02/1991,320 Adelaide St,,4000,Brisbane,QLD,0.175,444-555-666,"$85,000.00",Invalid DOB (not leap year)
+30,Rachel,Green,r.green@zenith.com.au,0423-555-666,1980-03-25 00:00:00,45 Queen Street,Brisbane,4000,Brisbane,Australia,,555-666-777,"$95,000.00",
+31,William,Gray,w.gray@kestrel.com.au,61 423 456 789,1977-11-11 00:00:00,Level 3 42 Murray Street,,7000,Hobart,Tasmania,,666-777-888,"$110,000.00",PIR not declared
+32,Robert,Black,robert@prometheus.com.au,423456789,1979-12-03 00:00:00,1/23 Market Street,,6000,Perth,Australia,0.28,777-888-999,"$130,000.00",
+33,Maria,Garcia,,61 423 777 888,1975-04-15 00:00:00,789 Spencer St,Melbourne,3000,Melbourne,VIC,0.175,888-999-000,"$145,000.00",
+34,Jamie,Wilson,jamie@synapse.com.au,61 422 333 444,1990-08-21 00:00:00,Unit 4/12 Park Ave,,2600,Canberra,ACT,0.175,999-000-111,"$75,000.00",
+35,Sarah,King,s.king@veritas.co.nz,64 22 234 5678,1974-06-18 00:00:00,88 Shortland Street,,,Auckland,,0.105,IRD-22-345-678,"$180,000.00",
+36,Catherine,Brown,c.brown@veritas.co.nz,64 22 123 4567,1982-07-03 00:00:00,88 Shortland St,Auckland,1010,Auckland,NZ,0.105,IRD-33-456-789,"$95,000.00",
+37,Linda,Taylor,,-8520,1984-01-29 00:00:00,Suite 100 Level 12,,2000,Sydney,Australia,0,000-111-222,"$200,000.00",
+38,james,wilson,jwilson@work.com,412345678,1985-01-18 00:00:00,14 collins street,,3000,melbourne,australia,0.175,123-456-789,"$100,000.00",lowercase entry
+39,J,Wilson,jw@email.com,0412 345 678,1985-01-18 00:00:00,14 Collins St,Melbourne,3000,Melbourne,Aus,17.5,123456789,"$50,000",abbreviated
+40,Micheal,Chen,m.chen@apexcapital.com.au,61 412 345 678,1978-06-22 00:00:00,Level 12 George Street,Sydney,2000,Sydney,Australia,0,98765000000,"$175,000.00",name typo
+,,,,,,,,,,Total:,,"$6,055,000.00 ","$6,055,000.00 ",

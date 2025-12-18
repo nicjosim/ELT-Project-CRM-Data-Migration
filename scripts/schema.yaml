@@ -1,0 +1,117 @@
+tables:
+  investors:
+    columns:
+      Account ID:
+        type: int
+        required: true
+        description: "Unique Caruso identifier generated per investor"
+
+      First Name:
+        type: string
+        required: true
+
+      Last Name:
+        type: string
+        required: true
+
+      Email:
+        type: string
+        required: true
+        unique: true
+
+      Country Code:
+        type: int
+        required: true
+        description: "Phone country code (e.g. 61, 64)"
+
+      Phone Number:
+        type: string
+        required: true
+        description: "Digits only, no special characters"
+
+      Date of Birth:
+        type: date
+        required: true
+        description: "ISO 8601 format (YYYY-MM-DD)"
+
+      Address Line:
+        type: string
+        required: true
+        description: "Primary address"
+
+      Suburb:
+        type: string
+        required: false
+
+      Postcode:
+        type: string
+        required: false
+
+      City:
+        type: string
+        required: false
+
+      Country:
+        type: string
+        required: true
+
+      PIR %:
+        type: percent_string
+        required: false
+        description: "Includes % symbol"
+
+      WHT %:
+        type: percent_string
+        required: false
+        description: "Includes % symbol"
+
+      Tax Identification Number:
+        type: string
+        required: false
+
+      Merge Notes:
+        type: string
+        required: false
+        description: "Reason for manual review or merge decision"
+
+  registry:
+    columns:
+      Fund Name:
+        type: string
+        required: true
+
+      Investor ID:
+        type: int
+        required: true
+        foreign_key:
+          table: investors
+          column: Account ID
+
+      Investor Name:
+        type: string
+        required: true
+        description: "Resolved from investors.csv"
+
+      Transaction Date:
+        type: date
+        required: true
+        description: "ISO 8601 format"
+
+      Unit Change:
+        type: float
+        required: true
+        description: "Positive or negative"
+
+      Unit Price:
+        type: float
+        required: true
+
+      Transaction Type:
+        type: string
+        required: true
+        description: "Issuance or Redemption"
+
+      Registry Notes:
+        type: string
+        required: false
+        description: "Flags for ambiguity or review"
